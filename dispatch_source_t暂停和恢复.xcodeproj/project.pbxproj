@@ -160,6 +160,7 @@
 				TargetAttributes = {
 					23C981431C58C537003C6A94 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CU4XLCPFAU;
 					};
 					23C9815C1C58C537003C6A94 = {
 						CreatedOnToolsVersion = 7.2;
@@ -341,9 +342,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "dispatch_source_t暂停和恢复/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lezhu.imike.dispatch-source-t-----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wpf.PayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -352,9 +354,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "dispatch_source_t暂停和恢复/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lezhu.imike.dispatch-source-t-----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wpf.PayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -402,6 +405,7 @@
 				23C981681C58C537003C6A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23C981691C58C537003C6A94 /* Build configuration list for PBXNativeTarget "dispatch_source_t暂停和恢复Tests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +414,7 @@
 				23C9816B1C58C537003C6A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
